@@ -107,27 +107,16 @@ http
 Copy
 Edit
 GET http://localhost:5000/deviation?coin=bitcoin
-🌐 Deployment (Optional)
-You can deploy to platforms like:
+🌐 Deployment 
 
-✅ Render.com (Recommended)
-Create two services:
+✅ Render.com 
 
 Web Service: api-server
+https://koinx-assignment-t5r2.onrender.com
 
 Background Worker: worker-server
 
-Set same .env values via Render Dashboard
+Use local NATS Server on your system for worker-server and then it can be fetched the data
 
-Start commands:
 
-bash
-Copy
-Edit
 npm install && npm start
-## 🛠️ Local Setup Instructions
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/your-username/crypto-stats.git
-cd crypto-stats
